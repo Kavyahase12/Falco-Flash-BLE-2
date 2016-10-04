@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190196501DA3B8C60053A160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1901964F1DA3B8C60053A160 /* main.m */; };
+		190196531DA3B8C60053A160 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 190196521DA3B8C60053A160 /* AppDelegate.m */; };
+		190196561DA3B8C60053A160 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190196551DA3B8C60053A160 /* ViewController.m */; };
+		190196591DA3B8C60053A160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190196571DA3B8C60053A160 /* Main.storyboard */; };
+		1901965B1DA3B8C60053A160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1901965A1DA3B8C60053A160 /* Assets.xcassets */; };
+		1901965E1DA3B8C60053A160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1901965C1DA3B8C60053A160 /* LaunchScreen.storyboard */; };
+		190196691DA3B8C60053A160 /* Falco_Flash_BLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190196681DA3B8C60053A160 /* Falco_Flash_BLETests.m */; };
+		190196741DA3B8C60053A160 /* Falco_Flash_BLEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 190196731DA3B8C60053A160 /* Falco_Flash_BLEUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190196651DA3B8C60053A160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190196431DA3B8C60053A160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1901964A1DA3B8C60053A160;
+			remoteInfo = "Falco Flash BLE";
+		};
+		190196701DA3B8C60053A160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190196431DA3B8C60053A160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1901964A1DA3B8C60053A160;
+			remoteInfo = "Falco Flash BLE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1901964B1DA3B8C60053A160 /* Falco Flash BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Falco Flash BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1901964F1DA3B8C60053A160 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		190196511DA3B8C60053A160 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		190196521DA3B8C60053A160 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		190196541DA3B8C60053A160 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		190196551DA3B8C60053A160 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		190196581DA3B8C60053A160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1901965A1DA3B8C60053A160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1901965D1DA3B8C60053A160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1901965F1DA3B8C60053A160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190196641DA3B8C60053A160 /* Falco Flash BLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falco Flash BLETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		190196681DA3B8C60053A160 /* Falco_Flash_BLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Falco_Flash_BLETests.m; sourceTree = "<group>"; };
+		1901966A1DA3B8C60053A160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1901966F1DA3B8C60053A160 /* Falco Flash BLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falco Flash BLEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		190196731DA3B8C60053A160 /* Falco_Flash_BLEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Falco_Flash_BLEUITests.m; sourceTree = "<group>"; };
+		190196751DA3B8C60053A160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190196481DA3B8C60053A160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190196611DA3B8C60053A160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1901966C1DA3B8C60053A160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190196421DA3B8C60053A160 = {
+			isa = PBXGroup;
+			children = (
+				1901964D1DA3B8C60053A160 /* Falco Flash BLE */,
+				190196671DA3B8C60053A160 /* Falco Flash BLETests */,
+				190196721DA3B8C60053A160 /* Falco Flash BLEUITests */,
+				1901964C1DA3B8C60053A160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1901964C1DA3B8C60053A160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1901964B1DA3B8C60053A160 /* Falco Flash BLE.app */,
+				190196641DA3B8C60053A160 /* Falco Flash BLETests.xctest */,
+				1901966F1DA3B8C60053A160 /* Falco Flash BLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1901964D1DA3B8C60053A160 /* Falco Flash BLE */ = {
+			isa = PBXGroup;
+			children = (
+				190196511DA3B8C60053A160 /* AppDelegate.h */,
+				190196521DA3B8C60053A160 /* AppDelegate.m */,
+				190196541DA3B8C60053A160 /* ViewController.h */,
+				190196551DA3B8C60053A160 /* ViewController.m */,
+				190196571DA3B8C60053A160 /* Main.storyboard */,
+				1901965A1DA3B8C60053A160 /* Assets.xcassets */,
+				1901965C1DA3B8C60053A160 /* LaunchScreen.storyboard */,
+				1901965F1DA3B8C60053A160 /* Info.plist */,
+				1901964E1DA3B8C60053A160 /* Supporting Files */,
+			);
+			path = "Falco Flash BLE";
+			sourceTree = "<group>";
+		};
+		1901964E1DA3B8C60053A160 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1901964F1DA3B8C60053A160 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		190196671DA3B8C60053A160 /* Falco Flash BLETests */ = {
+			isa = PBXGroup;
+			children = (
+				190196681DA3B8C60053A160 /* Falco_Flash_BLETests.m */,
+				1901966A1DA3B8C60053A160 /* Info.plist */,
+			);
+			path = "Falco Flash BLETests";
+			sourceTree = "<group>";
+		};
+		190196721DA3B8C60053A160 /* Falco Flash BLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				190196731DA3B8C60053A160 /* Falco_Flash_BLEUITests.m */,
+				190196751DA3B8C60053A160 /* Info.plist */,
+			);
+			path = "Falco Flash BLEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1901964A1DA3B8C60053A160 /* Falco Flash BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190196781DA3B8C60053A160 /* Build configuration list for PBXNativeTarget "Falco Flash BLE" */;
+			buildPhases = (
+				190196471DA3B8C60053A160 /* Sources */,
+				190196481DA3B8C60053A160 /* Frameworks */,
+				190196491DA3B8C60053A160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Falco Flash BLE";
+			productName = "Falco Flash BLE";
+			productReference = 1901964B1DA3B8C60053A160 /* Falco Flash BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		190196631DA3B8C60053A160 /* Falco Flash BLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1901967B1DA3B8C60053A160 /* Build configuration list for PBXNativeTarget "Falco Flash BLETests" */;
+			buildPhases = (
+				190196601DA3B8C60053A160 /* Sources */,
+				190196611DA3B8C60053A160 /* Frameworks */,
+				190196621DA3B8C60053A160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190196661DA3B8C60053A160 /* PBXTargetDependency */,
+			);
+			name = "Falco Flash BLETests";
+			productName = "Falco Flash BLETests";
+			productReference = 190196641DA3B8C60053A160 /* Falco Flash BLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1901966E1DA3B8C60053A160 /* Falco Flash BLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1901967E1DA3B8C60053A160 /* Build configuration list for PBXNativeTarget "Falco Flash BLEUITests" */;
+			buildPhases = (
+				1901966B1DA3B8C60053A160 /* Sources */,
+				1901966C1DA3B8C60053A160 /* Frameworks */,
+				1901966D1DA3B8C60053A160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190196711DA3B8C60053A160 /* PBXTargetDependency */,
+			);
+			name = "Falco Flash BLEUITests";
+			productName = "Falco Flash BLEUITests";
+			productReference = 1901966F1DA3B8C60053A160 /* Falco Flash BLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190196431DA3B8C60053A160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Falco eMotors Pvt. Ltd.";
+				TargetAttributes = {
+					1901964A1DA3B8C60053A160 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					190196631DA3B8C60053A160 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1901964A1DA3B8C60053A160;
+					};
+					1901966E1DA3B8C60053A160 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1901964A1DA3B8C60053A160;
+					};
+				};
+			};
+			buildConfigurationList = 190196461DA3B8C60053A160 /* Build configuration list for PBXProject "Falco Flash BLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 190196421DA3B8C60053A160;
+			productRefGroup = 1901964C1DA3B8C60053A160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1901964A1DA3B8C60053A160 /* Falco Flash BLE */,
+				190196631DA3B8C60053A160 /* Falco Flash BLETests */,
+				1901966E1DA3B8C60053A160 /* Falco Flash BLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190196491DA3B8C60053A160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1901965E1DA3B8C60053A160 /* LaunchScreen.storyboard in Resources */,
+				1901965B1DA3B8C60053A160 /* Assets.xcassets in Resources */,
+				190196591DA3B8C60053A160 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190196621DA3B8C60053A160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1901966D1DA3B8C60053A160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190196471DA3B8C60053A160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190196561DA3B8C60053A160 /* ViewController.m in Sources */,
+				190196531DA3B8C60053A160 /* AppDelegate.m in Sources */,
+				190196501DA3B8C60053A160 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190196601DA3B8C60053A160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190196691DA3B8C60053A160 /* Falco_Flash_BLETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1901966B1DA3B8C60053A160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190196741DA3B8C60053A160 /* Falco_Flash_BLEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190196661DA3B8C60053A160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1901964A1DA3B8C60053A160 /* Falco Flash BLE */;
+			targetProxy = 190196651DA3B8C60053A160 /* PBXContainerItemProxy */;
+		};
+		190196711DA3B8C60053A160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1901964A1DA3B8C60053A160 /* Falco Flash BLE */;
+			targetProxy = 190196701DA3B8C60053A160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		190196571DA3B8C60053A160 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190196581DA3B8C60053A160 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1901965C1DA3B8C60053A160 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1901965D1DA3B8C60053A160 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190196761DA3B8C60053A160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		190196771DA3B8C60053A160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		190196791DA3B8C60053A160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Falco Flash BLE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.falcoemotors.Falco-Flash-BLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1901967A1DA3B8C60053A160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Falco Flash BLE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.falcoemotors.Falco-Flash-BLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1901967C1DA3B8C60053A160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Falco Flash BLETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.falcoemotors.Falco-Flash-BLETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falco Flash BLE.app/Falco Flash BLE";
+			};
+			name = Debug;
+		};
+		1901967D1DA3B8C60053A160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Falco Flash BLETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.falcoemotors.Falco-Flash-BLETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falco Flash BLE.app/Falco Flash BLE";
+			};
+			name = Release;
+		};
+		1901967F1DA3B8C60053A160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Falco Flash BLEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.falcoemotors.Falco-Flash-BLEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Falco Flash BLE";
+			};
+			name = Debug;
+		};
+		190196801DA3B8C60053A160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Falco Flash BLEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.falcoemotors.Falco-Flash-BLEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Falco Flash BLE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190196461DA3B8C60053A160 /* Build configuration list for PBXProject "Falco Flash BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190196761DA3B8C60053A160 /* Debug */,
+				190196771DA3B8C60053A160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190196781DA3B8C60053A160 /* Build configuration list for PBXNativeTarget "Falco Flash BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190196791DA3B8C60053A160 /* Debug */,
+				1901967A1DA3B8C60053A160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1901967B1DA3B8C60053A160 /* Build configuration list for PBXNativeTarget "Falco Flash BLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1901967C1DA3B8C60053A160 /* Debug */,
+				1901967D1DA3B8C60053A160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1901967E1DA3B8C60053A160 /* Build configuration list for PBXNativeTarget "Falco Flash BLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1901967F1DA3B8C60053A160 /* Debug */,
+				190196801DA3B8C60053A160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 190196431DA3B8C60053A160 /* Project object */;
+}
