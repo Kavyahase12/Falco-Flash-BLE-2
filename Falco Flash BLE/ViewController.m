@@ -151,7 +151,7 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
                                             timerStopFlag=true;
                                             [self.cm cancelPeripheralConnection:self.currentPeripheral.peripheral];// FOR STOP CONNECTION
                                             [self dismissViewControllerAnimated:YES completion:nil];
-                                            //Handle your yes please button action here
+                                            
                                         }];
             
             
@@ -195,9 +195,7 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
     [self.SwipeControl addGestureRecognizer:swipeRightOrange];
     [self.SwipeControl addGestureRecognizer:swipeUpOrange];
     [self.SwipeControl addGestureRecognizer:swipeDownOrange];
-    
-    
-    
+   
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
     firmwareCheck=true;
@@ -220,10 +218,6 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
         age = [standardUserDefault objectForKey:@"CRMValue"];
     
     CRM = [age intValue];
-    
-    
-    NSUserDefaults *standardUserDefaults1 = [NSUserDefaults standardUserDefaults];
-    NSNumber *battryValue = nil;
     
     [self selfCall];
     [self UIDesign];
@@ -1483,7 +1477,8 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
         [self selfrecall];
     }
     
-    else{
+    else
+    {
         
         if(conectionflagtodisable==false)
         {
@@ -1494,15 +1489,13 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
             
             UIAlertAction* yesButton = [UIAlertAction
                                         actionWithTitle:@"OK"    style:UIAlertActionStyleDefault
-                                        handler:^(UIAlertAction * action) {
+                                        handler:^(UIAlertAction * action)
+            {
                                             
-                                            //Handle your yes please button action here
-                                            
-                                            
-                                            timerStopFlag=true;
-                                            //                                        [self.cm cancelPeripheralConnection:self.currentPeripheral.peripheral];// FOR STOP CONNECTION
-                                            [self dismissViewControllerAnimated:YES completion:nil];
-                                        }];
+                                        
+                timerStopFlag=true;
+                [self dismissViewControllerAnimated:YES completion:nil];
+             }];
             
             
             
