@@ -124,8 +124,7 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
     
     
     txtSpeed.hidden=false;
-    
-    self.title=@"Falco-Flash 1.3";
+
     [self adjustFontSizeOfLabel];
     _blankWings.hidden=false;
     
@@ -506,7 +505,7 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
                                         
                                         
                                         timerStopFlag=true;
-                                        //                                        [self.cm cancelPeripheralConnection:self.currentPeripheral.peripheral];// FOR STOP CONNECTION
+                                      
                                         [self.cm stopScan];
                                         [self dismissViewControllerAnimated:YES completion:nil];
                                     }];
