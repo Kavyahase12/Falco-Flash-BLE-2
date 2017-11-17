@@ -15,13 +15,49 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.9</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.6</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>${PRODUCT_NAME} Music Usage</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>TO Connect Falco eDrive product and communicate  to get details of Voltage , Speed  etc via bluetooth.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>${PRODUCT_NAME} Calendar Usage</string>
+	<key>NSCameraUsageDescription</key>
+	<string>${PRODUCT_NAME} Camera Usage</string>
+	<key>NSContactsUsageDescription</key>
+	<string>${PRODUCT_NAME} Contact fetch</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>${PRODUCT_NAME} Health Description</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>${PRODUCT_NAME} Health Updates</string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>${PRODUCT_NAME} HomeKit Usage</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>${PRODUCT_NAME} Use location always</string>
+	<key>NSLocationUsageDescription</key>
+	<string>${PRODUCT_NAME} Location Updates</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>${PRODUCT_NAME} WhenInUse Location</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>${PRODUCT_NAME} Microphone Usage</string>
+	<key>NSMotionUsageDescription</key>
+	<string>${PRODUCT_NAME} Motion Usage</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>${PRODUCT_NAME} PhotoLibrary Usage</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>${PRODUCT_NAME} Reminder Usage</string>
+	<key>NSSiriUsageDescription</key>
+	<string>${PRODUCT_NAME} Siri Usage</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>${PRODUCT_NAME} Speech Recognition Usage</string>
+	<key>NSVideoSubscriberAccountUsageDescription</key>
+	<string>${PRODUCT_NAME} Video Subscribe Usage</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -33,8 +69,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

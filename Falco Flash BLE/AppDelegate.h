@@ -1,4 +1,8 @@
-//
+
+//6 sep 2017
+
+
+//speed,distance remain
 //  AppDelegate.h
 //  Falco Flash BLE
 //
@@ -7,11 +11,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UARTPeripheral.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+//-(void)didTSConnect;
+//+(AppDelegate *)sharedApp;
 @end
 
