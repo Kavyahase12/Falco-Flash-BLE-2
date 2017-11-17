@@ -112,7 +112,7 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
     [_SwipeControl addSubview:activityConnecting];
     activityConnecting.center = CGPointMake([[UIScreen mainScreen]bounds].size.width/2, [[UIScreen mainScreen]bounds].size.height/2);
     
-    
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
     
     valueforStore=0;
     
