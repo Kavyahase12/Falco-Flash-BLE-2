@@ -429,7 +429,6 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
     
 }
 
-
 -(void)slideToUpWithGestureRecognizer:(UISwipeGestureRecognizer *)gestureRecognizer
 {
     if(receptionStartFlag==true)
@@ -508,7 +507,7 @@ float distance=0.0,distance1=0.0,mphDistance=0.0;
                                         
                                         timerStopFlag=true;
                                         //                                        [self.cm cancelPeripheralConnection:self.currentPeripheral.peripheral];// FOR STOP CONNECTION
-                                       
+                                        [self.cm stopScan];
                                         [self dismissViewControllerAnimated:YES completion:nil];
                                     }];
         
