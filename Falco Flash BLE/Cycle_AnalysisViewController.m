@@ -55,9 +55,7 @@ BOOL updateBatteryValueBool=false;
     
     txt_BatteryCapacity.inputAccessoryView = numberToolbar;
     
-    //   NSString *T = [NSString stringWithFormat:@"%.f",userEdit];
-    //    txt_BatteryCapacity.text=T;
-    //    txtEditFlag=true;
+ 
     
     UITextField *textfield;
     [textfield addTarget:self action:@selector(textFieldDidChange:) forControlEvents:UIControlEventEditingChanged];
@@ -156,12 +154,8 @@ BOOL updateBatteryValueBool=false;
 -(void)slideToRightWithGestureRecognizer:(UISwipeGestureRecognizer *)gestureRecognizer{
     [UIView animateWithDuration:0.5 animations:^{
         
-        //        [[self presentingViewController] dismissViewControllerAnimated:NO completion:nil];
         [self dismissViewControllerAnimated:NO completion:Nil];
-        
-        NSLog(@"HIIIIIIIIIIIIIIII CYC");
-        
-        //        [self performSegueWithIdentifier:@"ShowVerify" sender:self];
+     
         
     }];
 }
@@ -170,7 +164,7 @@ BOOL updateBatteryValueBool=false;
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+ 
 }
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {

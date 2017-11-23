@@ -63,6 +63,7 @@ BOOL lockStatus=true;
         _wireless4image.hidden=false;
         countclose=0;
     }
+    
     [self displayWingsMethod];
     
     if (receptionStartFlag==false)
@@ -96,10 +97,7 @@ BOOL lockStatus=true;
     [UIView animateWithDuration:0.5 animations:^{
         
         [self dismissViewControllerAnimated:NO completion:Nil];
-        
-        NSLog(@"HIIIIIIIIIIIIIIII OFF ROAD");
-        
-      
+       
         
     }];
 }
@@ -107,7 +105,6 @@ BOOL lockStatus=true;
     [UIView animateWithDuration:0.5 animations:
      ^{
         
-        NSLog(@"HIIIIIIIIIIIIIIII OFF ROAD LEFT");
         
     }];
 }
@@ -122,8 +119,6 @@ BOOL lockStatus=true;
         if (offClickCount%2==0)
         {
             
-            
-            //  OffRoadStatus=true;
             
             UIImage *btnImage = [UIImage imageNamed:@"Icon-108"];
             [_imgButton_Unlock setImage:btnImage forState:UIControlStateNormal];
@@ -159,7 +154,7 @@ BOOL lockStatus=true;
         }
         else
         {
-            //   OnRoadStatus=true;
+        
        
             dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{ // 1
 
@@ -220,6 +215,7 @@ BOOL lockStatus=true;
 
 -(void)displayWingsMethod
 {
+    
     if (receptionStartFlag==true)
     {
         
@@ -294,10 +290,6 @@ BOOL lockStatus=true;
                 self.batteryImageView.image = [UIImage imageNamed:@"Icon-47"];
             }
         }
-        
-        
-        
-        
         
         switch (regenFlag)
         {
